@@ -1,0 +1,47 @@
+@import "materialize";
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+main {
+    flex: 1 0 auto;
+  }
+
+.btn-devise {
+    width:100% ;
+}
+
+.homepage {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  }
+
+.ilike-blue-container {
+    @extend .white, .lighten-4;   
+  }
+
+ .mostra-immagine {
+    padding-right: 5%;
+  }
+
+  .mostra_titolo {
+    margin-top: 0px;
+    font-size: 4em;
+  }
+
+  .btn-form {
+    width: 100%;
+  }
+
+  .box {
+    background-color: white ;
+    border: grey solid 1px ;
+  }
+
+
+  .card-image {
+    height: 150px;
+  }
