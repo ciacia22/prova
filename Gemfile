@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.4'
 
+gem 'pg'
 
 gem 'sass-rails', '~> 5.0'
 
@@ -40,12 +41,12 @@ gem  'aasm'
 
 
 group :development, :test do
-  gem 'sqlite3'
+gem 'sqlite3'
   gem 'byebug'
 end
 
 group :production do
-	gem 'pg'
+
 	gem 'rails_12factor'
 end
 
