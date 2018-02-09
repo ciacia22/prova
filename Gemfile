@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.4'
 
-gem 'pg'
+
 
 gem 'sass-rails', '~> 5.0'
 
@@ -46,7 +46,7 @@ gem 'sqlite3'
 end
 
 group :production do
-
+    gem 'pg'
 	gem 'rails_12factor'
 end
 
