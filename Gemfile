@@ -38,11 +38,12 @@ gem 'stripe'
 
 gem  'aasm'
 
-
+gem 'pg'
 
 group :development, :test do
-gem 'sqlite3'
+
   gem 'byebug'
+  gem 'sqlite3'
 end
 
 group :production do
